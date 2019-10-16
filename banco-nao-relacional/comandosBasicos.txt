@@ -1,0 +1,18 @@
+db.estados.insert({nome: "Acre", sigla: "AC", regiao: "Norte"})
+ show collections
+ show dbs
+db.estados.save({nome: "Acre", sigla: "AC", regiao: "Norte", populacao: 3322000})
+
+ db.estados.insert({
+... nome: "Rio de Janeiro",
+... sigla: "RJ",
+... regiao: "Sudeste",
+... cidades: [{
+... nome: "Niterói",
+... area: 133.9,
+... populacao: 485454
+... }]
+... })
+
+db.help()
+
