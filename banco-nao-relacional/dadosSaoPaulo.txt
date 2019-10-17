@@ -16,7 +16,6 @@ db.estados.insert({
 ... _id: ObjectId(),
 ... nome: "Sorocaba",
 ... distanciaCapital: 87,
-...
 ... populacao: 44919
 ... }]
 ... })
